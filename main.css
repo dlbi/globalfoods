@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #c9c9c9;
+    background:#fff;
+    font-style: normal;
+    font-stretch: normal;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
+html {
+    scroll-behavior: smooth;
+}
+section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px;
+    background: rgb(23, 26, 29);
+}
+.logo {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding:50px 30px;
+}
+.logo img {
+    border-radius: 50%;
+}
+.company-name {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.company-motto {
+    font-size: 16px;
+    margin-top: -20px;
+}
+.login-here {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.login-here a {
+    text-decoration: none;
+}
+#log {
+    color: rgb(255, 255, 255);
+    background:rgb(15, 145, 21);
+    padding: 14px 55px;
+    border-style: none;
+    border-radius: 100px;
+    text-align: center;
+}
+#sign {
+    color: rgb(29, 29, 29);
+    background: rgb(255, 255, 255);
+    padding: 14px 54px;
+    border-style: none;
+    border-radius: 100px;
+    text-align: center;
+}
+.promo {
+    background:rgb(15, 145, 21);
+    padding: 30px;
+    height: fit-content;
+    line-height: 0.1em;
+    width: 100%;
+}
+.promo h1 {
+    font-size: 55px;
+}
+.newyear {
+    font-weight: 600;
+    font-style: 18px;
+}
+#discount {
+    font-size: 19px;
+    font-weight: 700;
+}
+.promocard {
+    box-shadow: 2px 4px 10px rgb(0, 0, 0);
+    max-width: 80%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.explore {
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+}
+.home {
+    width: 100%;
+    padding: 250px 0px;
+    align-items: center;
+    background: url("images/animate.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.home p {
+    font-size: 50px;
+    font-weight: 600;
+    font-style: italic;
+    color: whitesmoke;
+    font-family:cursive;
+}
+.line-right {
+    width: 140px;
+    height: 1px;
+    background:#c9c9c9;
+}
+.food {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.varieties {
+    height: fit-content;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 15px 0px;
+    margin: 10px;
+    border-width: 1px 0px 0px 0px;   
+    display: flex;
+    justify-content: space-evenly;align-items: stretch;
+}
+.varieties > div {
+    width:180px;
+}
+.varieties button {
+    font-size: 16px;
+    padding: 10px 30px;
+    background: rgb(15, 145, 21);
+    color: whitesmoke;
+    font-weight: 700;
+    border-radius: 100px;
+    border: none;
+}
+.span {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -25px;
+}
