@@ -98,7 +98,7 @@ section {
     width: 100%;
     padding: 250px 0px;
     align-items: center;
-    background: url("images/animate.gif");
+    background: url("images/foodie.gif");
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -133,14 +133,15 @@ section {
     margin: 10px;
     border-width: 1px 0px 0px 0px;   
     display: flex;
-    justify-content: space-evenly;align-items: stretch;
+    justify-content: space-evenly;align-items: center;
 }
 .varieties > div {
-    width:180px;
+    max-width: 280px;
+    min-width:180px;
 }
 .varieties button {
-    font-size: 16px;
-    padding: 10px 30px;
+    font-size: 15px;
+    padding: 10px 25px;
     background: rgb(15, 145, 21);
     color: whitesmoke;
     font-weight: 700;
@@ -150,7 +151,7 @@ section {
 .span {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    margin-top: -25px;
+    margin-top: -8px;
 }
